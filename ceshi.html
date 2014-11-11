@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>测试跳转</title>
+<script>
+function a(){
+var arr=["http://www.baidu.com",
+ "http://www.sina.com.cn",
+ "http://www.csdn.net", 
+ "http://www.163.com", 
+ "http://www.126.com",
+];
+var n=parseInt(Math.random()*5);
+window.location.href=arr[n];
+}
+</script>
+</head>
+<body><br><br><br><br>
+<center><input type=button value="已经为你选择最佳线路  <点这里访问>  " onclick=a()></center>
+<br>
+</body>
+</html>
